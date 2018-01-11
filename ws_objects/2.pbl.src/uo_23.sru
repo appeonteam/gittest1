@@ -63,6 +63,9 @@ type cb_2 from uo_3`cb_2 within tabpage_1
 string text = "a"
 end type
 
+event cb_2::clicked;call super::clicked;MessageBox ( "Tip", "This is a" )
+end event
+
 type tabpage_2 from uo_3`tabpage_2 within tab_1
 end type
 
@@ -71,6 +74,9 @@ integer x = 174
 integer y = 116
 string text = "b"
 end type
+
+event cb_3::clicked;call super::clicked;MessageBox ( "Tip", "This is b" )
+end event
 
 type tv_1 from uo_3`tv_1 within uo_23
 end type
