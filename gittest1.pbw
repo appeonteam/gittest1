@@ -1,6 +1,7 @@
 Save Format v3.0(19990112)
 @begin Targets
  0 "gittest1.pbt";
+ 1 "genapp.pbt";
 @end;
-DefaultTarget "gittest1.pbt";
-DefaultRemoteTarget "gittest1.pbt";
+DefaultTarget "genapp.pbt";
+DefaultRemoteTarget "genapp.pbt";
