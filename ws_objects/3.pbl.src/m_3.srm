@@ -1,0 +1,116 @@
+﻿$PBExportHeader$m_3.srm
+forward
+global type m_3 from menu
+end type
+type m_cc from menu within m_3
+end type
+type m_dd from menu within m_3
+end type
+global type m_3 from menu
+m_cc m_cc
+m_dd m_dd
+end type
+end forward
+
+global type m_3 from menu
+m_cc m_cc
+m_dd m_dd
+end type
+global m_3 m_3
+
+on m_3.create
+m_3=this
+call super::create
+this.text = "m_3"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_cc=create m_cc
+this.m_dd=create m_dd
+this.Item[UpperBound(this.Item)+1]=this.m_cc
+this.Item[UpperBound(this.Item)+1]=this.m_dd
+end on
+
+on m_3.destroy
+call super::destroy
+destroy(this.m_cc)
+destroy(this.m_dd)
+end on
+
+type m_cc from menu within m_3
+end type
+
+event clicked;//
+end event
+
+on m_cc.create
+call super::create
+this.text = "cc"
+this.toolbaritemname = "continue!"
+this.toolbaritemdownname = "Custom035!"
+this.toolbaritemtext = "test"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_cc.destroy
+call super::destroy
+end on
+
+type m_dd from menu within m_3
+end type
+
+on m_dd.create
+call super::create
+this.text = "dd"
+this.toolbaritemname = "custom026!"
+this.toolbaritemdownname = "Custom027!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_dd.destroy
+call super::destroy
+end on
+
