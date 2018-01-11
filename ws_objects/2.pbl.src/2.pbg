@@ -7,5 +7,7 @@
  "uo_22.sru" "2.pbl";
  "uo_23.sru" "2.pbl";
  "uo_24.sru" "2.pbl";
+ "uo_button.sru" "2.pbl";
  "w_2.srw" "2.pbl";
+ "w_中文.srw" "2.pbl";
 @end;
