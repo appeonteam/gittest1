@@ -1,0 +1,8 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "gittest1.pbl" "";
+@end;
+@begin Objects 
+ "gittest1.sra" "gittest1.pbl";
+ "w_test.srw" "gittest1.pbl";
+@end;
