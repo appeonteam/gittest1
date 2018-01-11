@@ -3,5 +3,10 @@
  "1.pbl" "";
 @end;
 @begin Objects 
+ "d_grid.srd" "1.pbl";
  "uo_1.sru" "1.pbl";
+ "uo_2.sru" "1.pbl";
+ "uo_3.sru" "1.pbl";
+ "uo_button.sru" "1.pbl";
+ "w_1.srw" "1.pbl";
 @end;
