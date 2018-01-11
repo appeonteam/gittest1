@@ -46,8 +46,8 @@ long BackColor=268435456
 end type
 
 type uo_1 from uo_23 within w_3
-integer x = 82
-integer y = 160
+integer x = 73
+integer y = 172
 integer taborder = 70
 end type
 

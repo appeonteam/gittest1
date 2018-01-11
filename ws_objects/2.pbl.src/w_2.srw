@@ -612,8 +612,8 @@ long statepicturemaskcolor = 536870912
 end type
 
 type tab_1 from tab within w_2
-integer x = 859
-integer y = 384
+integer x = 827
+integer y = 380
 integer width = 841
 integer height = 440
 integer taborder = 30
@@ -927,7 +927,7 @@ boolean border = true
 borderstyle borderstyle = stylelowered!
 date maxdate = Date("2999-12-31")
 date mindate = Date("1800-01-01")
-datetime value = DateTime(Date("2018-01-11"), Time("15:28:12.000000"))
+datetime value = DateTime(Date("2018-01-11"), Time("15:44:51.000000"))
 integer textsize = -9
 fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
