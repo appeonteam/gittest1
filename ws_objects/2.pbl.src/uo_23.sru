@@ -60,6 +60,8 @@ type tabpage_1 from uo_3`tabpage_1 within tab_1
 end type
 
 type cb_2 from uo_3`cb_2 within tabpage_1
+integer x = 69
+integer y = 96
 string text = "a"
 end type
 
@@ -70,8 +72,8 @@ type tabpage_2 from uo_3`tabpage_2 within tab_1
 end type
 
 type cb_3 from uo_3`cb_3 within tabpage_2
-integer x = 174
-integer y = 116
+integer x = 128
+integer y = 108
 string text = "b"
 end type
 
